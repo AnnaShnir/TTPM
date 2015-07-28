@@ -6,6 +6,7 @@
 
 .header {
 	background-color: red;
+	height: 150px;
 }
 
 body {
@@ -14,11 +15,12 @@ body {
 
 .footer {
 	background-color: gray;
+	height: 100px;
 }
 
 .container {
 	max-width: 1200px;
-	float: center;
+	margin: auto;
 }
 
 .column {
@@ -39,6 +41,33 @@ body {
 	background-color: blue;
 	float: left;
 }
+
+.border {
+	border-right: 5px solid black;
+	border-color: #3D3D3D;
+}
+
+
+/*media queries*/
+
+@media (max-width: 767px) {
+	.header {
+		height: 100px;
+	}
+}
+
+@media (max-width: 320px) {
+	.header {
+		height: 50px;
+	}
+}
+
+@media (max-width: 768px) {
+	.footer {
+		display: none;
+	}
+}
+
 
 
 
