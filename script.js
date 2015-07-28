@@ -8,6 +8,8 @@ $(document).ready(function() {
 		console.log(name);
 	});
 
-
+	$('.white').click(function() {
+		$('.white').animate({backgroundColor: "#DBFAFF"}, 3000);
+	});
 	
 });
