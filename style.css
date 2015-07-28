@@ -1,0 +1,56 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+	background-color: red;
+}
+
+body {
+	background-color: white;
+}
+
+.footer {
+	background-color: gray;
+}
+
+.container {
+	max-width: 1200px;
+	float: center;
+}
+
+.column {
+	width: 33.33%;
+}
+
+.green {
+	background-color: green;
+	float: left;
+}
+
+.white {
+	background-color: white;
+	float: left;
+}
+
+.blue {
+	background-color: blue;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+.blue {
+	background-color: blue;
+}
+
