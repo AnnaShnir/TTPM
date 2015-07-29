@@ -20,12 +20,14 @@ body {
 
 .container {
 	max-width: 1200px;
-	margin: auto;
 }
 
 .column {
+	height: 30px;
+	max-height: auto;
 	width: 33.33%;
 }
+/*the column height grows as it fills with content, alternatively, it can be given a minimum height in pixels*/
 
 .green {
 	background-color: green;
@@ -40,6 +42,7 @@ body {
 .blue {
 	background-color: blue;
 	float: left;
+	clear: right;
 }
 
 .border {
