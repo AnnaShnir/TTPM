@@ -4,7 +4,7 @@ $database = db.get(SELECT p_name, m_name FROM TableP, TableM WHERE TableP.pid=Ta
 
 <?php 
 
-$database = $mysqli->query("SELECT p_name, m_name FROM TableP, TableM WHERE TableP.pid=TableM.pid, ORDER BY p_date DESC");
+$database ->query("SELECT p_name, m_name FROM TableP, TableM WHERE TableP.pid=TableM.pid, ORDER BY p_date DESC");
 ?>
 
 -- Laravel offers another style of query (
